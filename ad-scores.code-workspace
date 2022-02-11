@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.ipynb_checkpoints/": true,
+			"**/*.egg-info/": true,
+			"**/__pycache__/": true,
+		},
+		"python.defaultInterpreterPath": "~/miniconda3/envs/genv/bin/python",
+		"python.formatting.provider": "black"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Python: Current File",
+				"type": "python",
+				"request": "launch",
+				"program": "${file}",
+				"console": "integratedTerminal"
+			}
+		]
+	}
+}
