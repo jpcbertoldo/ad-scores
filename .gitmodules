@@ -1,0 +1,6 @@
+[submodule "ppwc/paperswithcode-data"]
+	path = ppwc/paperswithcode-data
+	url = git@github.com:paperswithcode/paperswithcode-data.git
+[submodule "ppwc/sota-extractor"]
+	path = ppwc/sota-extractor
+	url = git@github.com:paperswithcode/sota-extractor.git
