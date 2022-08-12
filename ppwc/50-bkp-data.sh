@@ -20,10 +20,16 @@ echo "[debug] BKP_DIR=${BKP_DIR}"
 BKP_ZIP_FNAME=${TODAY}-all-data.zip
 echo "[debug] BKP_ZIP_FNAME=${BKP_ZIP_FNAME}"
 
-EXCLUDED_FILES="${DATA_DIR}/papers-with-abstracts.json"
+EXCLUDED_FILES="${DATA_DIR}/papers-with-abstracts.json ${DATA_DIR}/evaluation-tables.json"
 echo "[debug] EXCLUDED_FILES=${EXCLUDED_FILES}"
 
 mkdir -p ${BKP_DIR}
-zip -r ${BKP_DIR}/${BKP_ZIP_FNAME} ${DATA_DIR} -x ${EXCLUDED_FILES}
 
-ls -lh ${BKP_DIR} | grep ${BKP_ZIP_FNAME}
+if [ -f ${BKP_DIR}/${BKP_ZIP_FNAME} ]; then
+    echo "[info] ${BKP_DIR}/${BKP_ZIP_FNAME} already exists, skipping..."
+    exit 0
+fi
+
+zip -r ${BKP_DIR}/${BKP_ZIP_FNAME} ${DATA_DIR}/*.json -x ${EXCLUDED_FILES}
+
+ls -lh ${BKP_DIR} | tail -n 
