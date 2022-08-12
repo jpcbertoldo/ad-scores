@@ -28,13 +28,6 @@ echo "[debug] CONDA_ENV_NAME=${CONDA_ENV_NAME}"
 conda env create --file ${SCRIPT_DIR}/${CONDA_ENV_NAME}.yml
 conda activate ${CONDA_ENV_NAME}
 
-# PPWC_SOTA_EXTRACTOR_DIR=$(realpath ${SCRIPT_DIR}/..)
-# echo "[debug] PPWC_SOTA_EXTRACTOR_DIR=${PPWC_SOTA_EXTRACTOR_DIR}"
-
-# cd ${PPWC_SOTA_EXTRACTOR_DIR}
-
-# pip install --editable .
-
 echo "[debug] python=$(which python)"
 
 echo "installing the ipykernel locally (--user)"
