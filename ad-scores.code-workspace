@@ -18,6 +18,14 @@
 		"version": "0.2.0",
 		"configurations": [
 			{
+				"name": "ppwc/02_filter_tables.py",
+				"type": "python",
+				"request": "launch",
+				"program": "ppwc/02_filter_tables.py",
+				"console": "integratedTerminal",
+				"python": "${env:HOME}/miniconda3/envs/ad-scores/bin/python"
+			},
+			{
 				"name": "Python: Current File",
 				"type": "python",
 				"request": "launch",
