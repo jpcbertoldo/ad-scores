@@ -1,0 +1,312 @@
+Xian Tao (2022)
+paperId=51ba3b33f445199d9f3cddb5b00c7e2927199b0c
+Deep Learning for Unsupervised Anomaly Localization in Industrial Images: A Survey
+Xian Tao, Xinyi Gong, X. Zhang, Shaohua Yan, Chandranath Adak
+row['nrefences']=125
+row['nreferences_incommon_mvtec_citations']=61
+row['percent_references_incommon_mvtec_citations']=49%
+https://www.semanticscholar.org/paper/51ba3b33f445199d9f3cddb5b00c7e2927199b0c
+
+ Abstract — Currently, deep learning-based visual inspection has been highly successful with the help of supervised learning methods. However, in real industrial scenarios, the scarcity of defect samples, the cost of annotation, and the lack of a priori knowledge of defects may render supervised-based methods ineffective. In recent years, unsupervised anomaly localization algorithms have become more widely used in industrial inspection tasks. This paper aims to help researchers in this field by comprehensively surveying recent achievements in unsupervised anomaly localization in industrial images using deep learning. The survey reviews more than 120 significant publications covering different aspects of anomaly localization, mainly covering various concepts, comparisons of the methods reviewed. In reviewing the achievements to date, this paper provides detailed predictions and analysis of several future research directions. This review provides detailed technical information for researchers interested in industrial anomaly localization and who wish to apply it to the localization of anomalies in other fields.
+
+
+Yajie Cui (2022)
+paperId=73cd41517018945fc17300adeb91447bfede6a53
+A Survey on Unsupervised Industrial Anomaly Detection Algorithms
+Yajie Cui, Zhaoxiang Liu, Shiguo Lian
+row['nrefences']=125
+row['nreferences_incommon_mvtec_citations']=33
+row['percent_references_incommon_mvtec_citations']=26%
+https://www.semanticscholar.org/paper/73cd41517018945fc17300adeb91447bfede6a53
+
+In line with the development of Industry 4.0, more and more attention is attracted to the ﬁeld of surface defect detection. Improving eﬃciency as well as saving labor costs has steadily become a matter of great concern in industry ﬁeld, where deep learning-based algorithms performs better than traditional vision inspection methods in recent years. While existing deep learning-based algorithms are biased towards supervised learning, which not only necessitates a huge amount of labeled data and a signiﬁcant amount of labor, but it is also inef-ﬁcient and has certain limitations. In contrast, recent research shows that unsupervised learning has great potential in tackling above disadvantages for visual anomaly detection. In this survey, we summarize current challenges and provide a thorough overview of recently proposed unsupervised algorithms for visual anomaly detection covering ﬁve categories, whose innovation points and frameworks are described in detail. Meanwhile, information on publicly available datasets containing surface image samples are provided. By comparing diﬀerent classes of methods, the advantages and disadvantages of anomaly detection algorithms are summarized. It is expected to assist both the research community and industry in developing a broader and cross-domain perspective.
+
+
+H. Hojjati (2022)
+paperId=f98dbe64ed6fa8925048291fcceb625d704fb294
+Self-Supervised Anomaly Detection: A Survey and Outlook
+H. Hojjati, Thi Kieu Khanh Ho, N. Armanfard
+row['nrefences']=136
+row['nreferences_incommon_mvtec_citations']=26
+row['percent_references_incommon_mvtec_citations']=19%
+https://www.semanticscholar.org/paper/f98dbe64ed6fa8925048291fcceb625d704fb294
+
+—Over the past few years, anomaly detection, a subﬁeld of machine learning that is mainly concerned with the detection of rare events, witnessed an immense improvement following the unprecedented growth of deep learning models. Recently, the emergence of self-supervised learning has sparked the development of new anomaly detection algorithms that surpassed state-of-the-art accuracy by a signiﬁcant margin. This paper aims to review the current approaches in self-supervised anomaly detection. We present technical details of the common approaches and discuss their strengths and drawbacks. We also compare the performance of these models against each other and other state-of-the-art anomaly detection models. Finally, we discuss a variety of new directions for improving the existing algorithms. 1
+
+
+Zhiyuan You (2022)
+paperId=1e78fb6e1c95e0831f6e9f20186534f3bf20db4e
+A Unified Model for Multi-class Anomaly Detection
+Zhiyuan You, Lei Cui, Yujun Shen, K. Yang, Xin Lu, Yu Zheng, Xinyi Le
+row['nrefences']=50
+row['nreferences_incommon_mvtec_citations']=21
+row['percent_references_incommon_mvtec_citations']=42%
+https://www.semanticscholar.org/paper/1e78fb6e1c95e0831f6e9f20186534f3bf20db4e
+
+Despite the rapid advance of unsupervised anomaly detection, existing methods require to train separate models for different objects. In this work, we present UniAD that accomplishes anomaly detection for multiple classes with a uniﬁed framework. Under such a challenging setting, popular reconstruction networks may fall into an “identical shortcut”, where both normal and anomalous samples can be well recovered, and hence fail to spot outliers. To tackle this obstacle, we make three improvements. First, we revisit the formulations of fully-connected layer, convolutional layer, as well as attention layer, and conﬁrm the important role of query embedding ( i.e. , within attention layer) in preventing the network from learning the shortcut. We therefore come up with a layer-wise query decoder to help model the multi-class distribution. Second, we employ a neighbor masked attention module to further avoid the information leak from the input feature to the reconstructed output feature. Third, we propose a feature jittering strategy that urges the model to recover the correct message even with noisy inputs. We evaluate our algorithm on MVTec-AD and CIFAR-10
+
+
+Antoine Cordier (2022)
+paperId=32aab0c5468d9692877c53efc5612957e48205b2
+Data refinement for fully unsupervised visual inspection using pre-trained networks
+Antoine Cordier, Benjamin Missaoui, Pierre Gutierrez
+row['nrefences']=51
+row['nreferences_incommon_mvtec_citations']=21
+row['percent_references_incommon_mvtec_citations']=41%
+https://www.semanticscholar.org/paper/32aab0c5468d9692877c53efc5612957e48205b2
+
+Anomaly detection has recently seen great progress in the field of visual inspection. More specifically, the use of classical outlier detection techniques on features extracted by deep pre-trained neural networks have been shown to deliver remarkable performances on the MVTec Anomaly Detection (MVTec AD) dataset. However, like most other anomaly detection strategies, these pre-trained methods assume all training data to be normal. As a consequence, they cannot be considered as fully unsupervised. There exists to our knowledge no work studying these pre-trained methods under fully unsupervised setting. In this work, we first assess the robustness of these pre-trained methods to fully unsupervised context, using polluted training sets (i.e. containing defective samples), and show that these methods are more robust to pollution compared to methods such as CutPaste. We then propose SROC, a Simple Refinement strategy for One Class classification. SROC enables to remove most of the polluted images from the training set, and to recover some of the lost AUC. We further show that our simple heuristic competes with, and even outperforms much more complex strategies from the existing literature.
+
+
+Ye Zheng (2022)
+paperId=76077e1e12908b525907e7c3419368291f5965ab
+Benchmarking Unsupervised Anomaly Detection and Localization
+Ye Zheng, Xiang Wang, Yu-Hang Qi, Wei Li, Liwei Wu
+row['nrefences']=38
+row['nreferences_incommon_mvtec_citations']=19
+row['percent_references_incommon_mvtec_citations']=50%
+https://www.semanticscholar.org/paper/76077e1e12908b525907e7c3419368291f5965ab
+
+Unsupervised anomaly detection and localization, as of one the most practical and challenging problems in computer vision, has received great attention in recent years. From the time the MVTec AD dataset was proposed to the present, new research methods that are constantly being proposed push its precision to saturation. It is the time to conduct a comprehensive comparison of existing methods to inspire further research. This paper extensively com-pares 13 papers in terms of the performance in unsupervised anomaly detection and localization tasks, and adds a comparison of inference efﬁciency previously ignored by the community. Meanwhile, analysis of the MVTec AD dataset are also given, especially the label ambiguity that affects the model fails to achieve full marks. Moreover, considering the proposal of the new MVTec 3D-AD dataset, this paper also conducts experiments using the existing state-of-the-art 2D methods on this new dataset, and reports the corresponding results with analysis.
+
+
+Lars Doorenbos (2021)
+paperId=0f23a44418aabe3344c6f3809d6a8ab898292813
+Data Invariants to Understand Unsupervised Out-of-Distribution Detection
+Lars Doorenbos, R. Sznitman, Pablo M'arquez-Neila
+row['nrefences']=83
+row['nreferences_incommon_mvtec_citations']=18
+row['percent_references_incommon_mvtec_citations']=22%
+https://www.semanticscholar.org/paper/0f23a44418aabe3344c6f3809d6a8ab898292813
+
+. Unsupervised out-of-distribution (U-OOD) detection has recently attracted much attention due to its importance in mission-critical systems and broader applicability over its supervised counterpart. Despite this increased attention, U-OOD methods suffer from important shortcomings. By performing a large-scale evaluation on different benchmarks and image modalities, we show in this work that most popular state-of-the-art methods are unable to consistently outperform a simple anomaly detector based on pre-trained features and the Mahalanobis distance (MahaAD). A key reason for the inconsistencies of these methods is the lack of a formal description of U-OOD. Motivated by a simple thought experiment, we propose a characterization of U-OOD based on the invariants of the training dataset. We show how this characterization is unknowingly embodied in the top-scoring MahaAD method, thereby explaining its quality. Furthermore, our approach can be used to inter-pret predictions of U-OOD detectors and provides insights into good practices for evaluating future U-OOD methods.
+
+
+Yajun Chen (2021)
+paperId=08b66b00a9ce6ab8090668f9f848c5659617bae9
+Surface Defect Detection Methods for Industrial Products: A Review
+Yajun Chen, Yuanyuan Ding, Fan Zhao, E. Zhang, Zhangnan Wu, Linhao Shao
+row['nrefences']=139
+row['nreferences_incommon_mvtec_citations']=17
+row['percent_references_incommon_mvtec_citations']=12%
+https://www.semanticscholar.org/paper/08b66b00a9ce6ab8090668f9f848c5659617bae9
+
+The comprehensive intelligent development of the manufacturing industry puts forward new requirements for the quality inspection of industrial products. This paper summarizes the current research status of machine learning methods in surface defect detection, a key part in the quality inspection of industrial products. First, according to the use of surface features, the application of traditional machine vision surface defect detection methods in industrial product surface defect detection is summarized from three aspects: texture features, color features, and shape features. Secondly, the research status of industrial product surface defect detection based on deep learning technology in recent years is discussed from three aspects: supervised method, unsupervised method, and weak supervised method. Then, the common key problems and their solutions in industrial surface defect detection are systematically summarized; the key problems include real-time problem, small sample problem, small target problem, unbalanced sample problem. Lastly, the commonly used datasets of industrial surface defects in recent years are more comprehensively summarized, and the latest research methods on the MVTec AD dataset are compared, so as to provide some reference for the further research and development of industrial surface defect detection technology.
+
+
+Xincheng Yao (2022)
+paperId=0795b7462b6d186d4ccd63d185a25f54d56aaf5f
+Explicit Boundary Guided Semi-Push-Pull Contrastive Learning for Better Anomaly Detection
+Xincheng Yao, Chongyang Zhang, Ruoqing Li
+row['nrefences']=47
+row['nreferences_incommon_mvtec_citations']=16
+row['percent_references_incommon_mvtec_citations']=34%
+https://www.semanticscholar.org/paper/0795b7462b6d186d4ccd63d185a25f54d56aaf5f
+
+Most of anomaly detection algorithms are mainly focused on modeling the distribution of normal samples and treating anomalies as outliers. However, the discriminative performance of the model may be insufficient due to the lack of knowledge about anomalies. Thus, anomalies should be exploited as possible. However, utilizing a few known anomalies during training may cause another issue that model may be biased by those known anomalies and fail to generalize to unseen anomalies. In this paper, we aim to exploit a few existing anomalies with a carefully designed explicit boundary guided semi-push-pull learning strategy, which can enhance discriminability while mitigating bias problem caused by insufficient known anomalies. Our model is based on two core designs: First, finding one explicit separating boundary as the guidance for further contrastive learning. Specifically, we employ normalizing flow to learn normal feature distribution, then find an explicit separating boundary close to the distribution edge. The obtained explicit and compact separating boundary only relies on the normal feature distribution, thus the bias problem caused by a few known anomalies can be mitigated. Second, learning more discriminative features under the guidance of the explicit separating boundary. A boundary guided semi-push-pull loss is developed to only pull the normal features together while pushing the abnormal features apart from the separating boundary beyond a certain margin region. In this way, our model can form a more explicit and discriminative decision boundary to achieve better results for known and also unseen anomalies, while also maintaining high training efficiency. Furthermore, to make the feature learning more efficient, we propose RandAugmented CutPaste which can simulate anomalies by creating local irregularities in normal samples to mitigate the insufficient of anomaly samples. Extensive experiments on the widely-used MVTecAD benchmark show that the proposed method achieves new state-of-the-art results, with the performance of 98.8% image-level AUROC and 99.4% pixel-level AUROC.
+
+
+Hanqiu Deng (2022)
+paperId=3b3aefbbdb64e5812f133f220b3f129a36a30065
+Anomaly Detection via Reverse Distillation from One-Class Embedding
+Hanqiu Deng, Xingyu Li
+row['nrefences']=49
+row['nreferences_incommon_mvtec_citations']=16
+row['percent_references_incommon_mvtec_citations']=33%
+https://www.semanticscholar.org/paper/3b3aefbbdb64e5812f133f220b3f129a36a30065
+
+Knowledge distillation (KD) achieves promising results on the challenging problem of unsupervised anomaly detection (AD). The representation discrepancy of anomalies in the teacher-student (T-S) model provides essential evidence for AD. However, using similar or identical architectures to build the teacher and student models in previous studies hinders the diversity of anomalous representations. To tackle this problem, we propose a novel T-S model consist-ing of a teacher encoder and a student decoder and introduce a simple yet effective ”reverse distillation” paradigm accordingly. Instead of receiving raw images directly, the student network takes teacher model’s one-class embedding as input and targets to restore the teacher’s multi-scale representations. Inherently, knowledge distillation in this study starts from abstract, high-level presentations to low-level features. In addition, we introduce a trainable one-class bottleneck embedding (OCBE) module in our T-S model. The obtained compact embedding effectively pre-serves essential information on normal patterns, but aban-dons anomaly perturbations. Extensive experimentation on AD and one-class novelty detection benchmarks shows that our method surpasses SOTA performance, demonstrating our proposed approach’s effectiveness and generalizability.
+
+
+Oliver Rippel (2021)
+paperId=d78f2e0d5e3040ad62d5bcd0abca8a8507bff209
+Transfer Learning Gaussian Anomaly Detection by Fine-Tuning Representations
+Oliver Rippel, Arnav Chavan, Chucai Lei, D. Merhof
+row['nrefences']=59
+row['nreferences_incommon_mvtec_citations']=16
+row['percent_references_incommon_mvtec_citations']=27%
+https://www.semanticscholar.org/paper/d78f2e0d5e3040ad62d5bcd0abca8a8507bff209
+
+: Current state-of-the-art anomaly detection (AD) methods exploit the powerful representations yielded by large-scale ImageNet training. However, catastrophic forgetting prevents the successful ﬁne-tuning of pretrained representations on new datasets in the semi-supervised setting, and representations are therefore commonly ﬁxed. In our work, we propose a new method to overcome catastrophic forgetting and thus successfully ﬁne-tune pre-trained representations for AD in the transfer learning setting. Speciﬁcally, we induce a multivariate Gaussian distribution for the normal class based on the linkage between generative and discriminative modeling, and use the Mahalanobis distance of normal images to the estimated distribution as training objective. We additionally propose to use augmentations commonly employed for vicinal risk minimization in a validation scheme to detect onset of catastrophic forgetting. Extensive evaluations on the public MVTec dataset reveal that a new state of the art is achieved by our method in the AD task while simultaneously achieving anomaly segmentation performance comparable to prior state of the art. Further, ablation studies demonstrate the importance of the induced Gaussian distribution as well as the robustness of the proposed ﬁne-tuning scheme with respect to the choice of augmentations.
+
+
+Yuanhong Chen (2021)
+paperId=fa1aa090d09dc5d420d0cce37cea72c21e99d36b
+Deep One-Class Classification via Interpolated Gaussian Descriptor
+Yuanhong Chen, Yu Tian, Guansong Pang, G. Carneiro
+row['nrefences']=79
+row['nreferences_incommon_mvtec_citations']=15
+row['percent_references_incommon_mvtec_citations']=19%
+https://www.semanticscholar.org/paper/fa1aa090d09dc5d420d0cce37cea72c21e99d36b
+
+One-class classification (OCC) aims to learn an effective data description to enclose all normal training samples and detect anomalies based on the deviation from the data description. Current state-of-the-art OCC models learn a compact normality description by hyper-sphere minimisation, but they often suffer from overfitting the training data, especially when the training set is small or contaminated with anomalous samples. To address this issue, we introduce the interpolated Gaussian descriptor (IGD) method, a novel OCC model that learns a one-class Gaussian anomaly classifier trained with adversarially interpolated training samples. The Gaussian anomaly classifier differentiates the training samples based on their distance to the Gaussian centre and the standard deviation of these distances, offering the model a discriminability w.r.t. the given samples during training. The adversarial interpolation is enforced to consistently learn a smooth Gaussian descriptor, even when the training data is small or contaminated with anomalous samples. This enables our model to learn the data description based on the representative normal samples rather than fringe or anomalous samples, resulting in significantly improved normality description. In extensive experiments on diverse popular benchmarks, including MNIST, Fashion MNIST, CIFAR10, MVTec AD and two medical datasets, IGD achieves better detection accuracy than current state-of-the-art models. IGD also shows better robustness in problems with small or contaminated training sets.
+
+
+Paul Bergmann (2022)
+paperId=cd382609f0029aae042e91a5a46b3dc2ba58a321
+Anomaly Detection in 3D Point Clouds using Deep Geometric Descriptors
+Paul Bergmann, David Sattlegger
+row['nrefences']=47
+row['nreferences_incommon_mvtec_citations']=15
+row['percent_references_incommon_mvtec_citations']=32%
+https://www.semanticscholar.org/paper/cd382609f0029aae042e91a5a46b3dc2ba58a321
+
+We present a new method for the unsupervised detection of geometric anomalies in highresolution 3D point clouds. In particular, we propose an adaptation of the established student-teacher anomaly detection framework to three dimensions. A student network is trained to match the output of a pretrained teacher network on anomaly-free point clouds. When applied to test data, regression errors between the teacher and the student allow reliable localization of anomalous structures. To construct an expressive teacher network that extracts dense local geometric descriptors, we introduce a novel self-supervised pretraining strategy. The teacher is trained by reconstructing local receptive fields and does not require annotations. Extensive experiments on the comprehensive MVTec 3D Anomaly Detection dataset highlight the effectiveness of our approach, which outperforms the next-best method by a large margin. Ablation studies show that our approach meets the requirements of practical applications regarding performance, runtime, and memory consumption.
+
+
+X. Xia (2022)
+paperId=13fab6dbb9d0f3eaac0b45a52c140165ae25b8b6
+GAN-based anomaly detection: A review
+X. Xia, Xizhou Pan, Nan Li, Xing He, Lin Ma, Xiaoguang Zhang, N. Ding
+row['nrefences']=241
+row['nreferences_incommon_mvtec_citations']=15
+row['percent_references_incommon_mvtec_citations']=6%
+https://www.semanticscholar.org/paper/13fab6dbb9d0f3eaac0b45a52c140165ae25b8b6
+
+None
+
+
+E. Mathian (2022)
+paperId=840530ea3d2008d301b49c9d25dbcc76f91b4ab6
+HaloAE: An HaloNet based Local Transformer Auto-Encoder for Anomaly Detection and Localization
+E. Mathian, H. Liu, L. Fernandez-Cuesta, D. Samaras, M. Foll, L. Chen
+row['nrefences']=57
+row['nreferences_incommon_mvtec_citations']=15
+row['percent_references_incommon_mvtec_citations']=26%
+https://www.semanticscholar.org/paper/840530ea3d2008d301b49c9d25dbcc76f91b4ab6
+
+. Unsupervised anomaly detection and localization is a crucial task as it is impossible to collect and label all possible anomalies. Many studies have emphasized the importance of integrating local and global information to achieve accurate segmentation of anomalies. To this end, there has been a growing interest in Transformer, which allows modeling long-range content interactions. However, global interactions through self attention are generally too expensive for most image scales. In this study, we introduce HaloAE, the first auto-encoder based on a local 2D version of Transformer with HaloNet. With HaloAE, we have created a hybrid model that combines convolution and local 2D block-wise self-attention layers and jointly performs anomaly detection and segmentation through a single model. We achieved competitive results on the MVTec dataset, suggesting that vision models incorporating Transformer could benefit from a local computation of the self-attention operation, and pave the way for other applications 4 .
+
+
+Chin-Chia Tsai (2022)
+paperId=45535b86c60661dd4c4e4f375abae80937563499
+Multi-Scale Patch-Based Representation Learning for Image Anomaly Detection and Segmentation
+Chin-Chia Tsai, Tsung-Hsuan Wu, S. Lai
+row['nrefences']=29
+row['nreferences_incommon_mvtec_citations']=14
+row['percent_references_incommon_mvtec_citations']=48%
+https://www.semanticscholar.org/paper/45535b86c60661dd4c4e4f375abae80937563499
+
+Unsupervised representation learning has been proven to be effective for the challenging anomaly detection and segmentation tasks. In this paper, we propose a multi-scale patch-based representation learning method to extract critical and representative information from normal images. By taking the relative feature similarity between patches of different local distances into account, we can achieve better representation learning. Moreover, we propose a refined way to improve the self-supervised learning strategy, thus allowing our model to learn better geometric relationship between neighboring patches. Through sliding patches of different scales all over an image, our model extracts representative features from each patch and compares them with those in the training set of normal images to detect the anomalous regions. Our experimental results on MVTec AD dataset and BTAD dataset demonstrate the proposed method achieves the state-of-the-art accuracy for both anomaly detection and segmentation.
+
+
+Muhao Xu (2022)
+paperId=f40b83fddae574937199a857504d84ebe8fce418
+Discriminative Feature Learning Framework with Gradient Preference for Anomaly Detection
+Muhao Xu, Xueying Zhou, Xizhan Gao, Wei-Xiong He, Sijie Niu
+row['nrefences']=23
+row['nreferences_incommon_mvtec_citations']=11
+row['percent_references_incommon_mvtec_citations']=48%
+https://www.semanticscholar.org/paper/f40b83fddae574937199a857504d84ebe8fce418
+
+Unsupervised representation learning has been ex-tensively employed in anomaly detection, achieving impressive performance. Extracting valuable feature vectors that can remarkably improve the performance of anomaly detection are essential in unsupervised representation learning. To this end, we propose a novel discriminative feature learning framework with gradient preference for anomaly detection. Speciﬁcally, we ﬁrstly design a gradient preference based selector to store powerful feature points in space and then construct a feature repository, which alleviate the interference of redundant feature vectors and improve inference efﬁciency. To overcome the looseness of feature vectors, sec-ondly, we present a discriminative feature learning with center constrain to map the feature repository to a compact subspace, so that the anomalous samples are more distinguishable from the normal ones. Moreover, our method can be easily extended to anomaly localization. Extensive experiments on popular industrial and medical anomaly detection datasets demonstrate our proposed framework can achieve competitive results in both anomaly detection and localization. More important, our method outperforms the state-of-the-art in few shot anomaly detection.
+
+
+Oliver Rippel (2021)
+paperId=8ddd68ba618c5c0bb327b874cec731ddf6764bd0
+Leveraging pre-trained Segmentation Networks for Anomaly Segmentation
+Oliver Rippel, D. Merhof
+row['nrefences']=27
+row['nreferences_incommon_mvtec_citations']=12
+row['percent_references_incommon_mvtec_citations']=44%
+https://www.semanticscholar.org/paper/8ddd68ba618c5c0bb327b874cec731ddf6764bd0
+
+Employing representations generated by large-scale training in a transfer-learning setting achieves state-of-the-art anomaly segmentation results when applied to the visual inspection task. Current approaches, however, focus exclusively on features of pre-trained classification networks, which are known to posess lower spatial resolution than segmentation or object detection networks. In our work, we investigate whether features extracted from pre-trained segmentation networks can be used to further improve anomaly segmentation performance in the transfer-learning setting. To this end, we apply state-of-the-art transfer-learning methods to encoder-decoder based segmentation networks. Results show that the encoders of pre-trained segmentation networks yield improved anomaly segmentation performance compared to their pre-trained classification counterparts. However, no consistent improvements can be observed yet regarding the decoders of the pre-trained segmentation networks. Together, this demonstrates that pre-trained segmentation networks can be used to further improve transfer-learned anomaly segmentation performance and that additional research is required to fully unleash their potential.
+
+
+Kaitai Zhang (2021)
+paperId=44e5c681bed1b4c08a745b199e353ce7bafd8a92
+PEDENet: Image Anomaly Localization via Patch Embedding and Density Estimation
+Kaitai Zhang, Bin Wang, C.-C. Jay Kuo
+row['nrefences']=31
+row['nreferences_incommon_mvtec_citations']=13
+row['percent_references_incommon_mvtec_citations']=42%
+https://www.semanticscholar.org/paper/44e5c681bed1b4c08a745b199e353ce7bafd8a92
+
+None
+
+
+Ning Li (2021)
+paperId=c75acecad5c137f050a58c546fd61ae46ece4ebf
+Anomaly Detection Via Self-Organizing Map
+Ning Li, Kaitao Jiang, Zhiheng Ma, Xing Wei, Xiaopeng Hong, Yihong Gong
+row['nrefences']=29
+row['nreferences_incommon_mvtec_citations']=12
+row['percent_references_incommon_mvtec_citations']=41%
+https://www.semanticscholar.org/paper/c75acecad5c137f050a58c546fd61ae46ece4ebf
+
+Anomaly detection plays a key role in industrial manufacturing for product quality control. Traditional methods for anomaly detection are rule-based with limited generalization ability. Recent methods based on supervised deep learning are more powerful but require large-scale annotated datasets for training. In practice, abnormal products are rare thus it is very difficult to train a deep model in a fully supervised way. In this paper, we propose a novel unsupervised anomaly detection approach based on Self-organizing Map (SOM). Our method, Self-organizing Map for Anomaly Detection (SOMAD) maintains normal characteristics by using topological memory based on multi-scale features. SOMAD achieves state-of-the-art performance on unsupervised anomaly detection and localization on the MVTec dataset.
+
+
+H. Tang (NOT FOUND)
+paperId=19ac86e7ac8d42f02e6936b7ee820ef6cc1ff752
+Improved Anomaly Detection Based on Image Reconstruction and Global Template Features for Industrial Products
+H. Tang, Guanghuan Hu, Wenli He, Qianxi Tu
+row['nrefences']=17
+row['nreferences_incommon_mvtec_citations']=7
+row['percent_references_incommon_mvtec_citations']=41%
+https://www.semanticscholar.org/paper/19ac86e7ac8d42f02e6936b7ee820ef6cc1ff752
+
+Anomaly detection in industry applications is a challenging problem when negative (defective) samples are unavailable, especially in the case where there are missing parts or foreign objects occupied a relatively large region. Conventional reconstruction-based approaches cannot guarantee the restored image being a normal one, leading to poor segmentation results. In this work, we propose an unsupervised anomaly detection approach to tackle the problem of large-area anomaly detection by incorporating global template features into an Auto-Encoder like reconstruction model. In particular, our model infers the value of each pixel based on both the surrounding local-neighborhood information and the global information encoded at the same pixel position. During the reconstruction phase, any abnormal features are then replaced with normal ones, avoiding over-reconstruction of large-area abnormalities. The experimental results in comparison with other methods demonstrate its effectiveness for industrial anomaly detection.
+
+
+João P. C. Bertoldo (2022)
+paperId=c20a429ede0cb84dcece92c2346cffc906505256
+[Reproducibility Report] Explainable Deep One-Class Classification
+João P. C. Bertoldo, Etienne Decencière
+row['nrefences']=28
+row['nreferences_incommon_mvtec_citations']=11
+row['percent_references_incommon_mvtec_citations']=39%
+https://www.semanticscholar.org/paper/c20a429ede0cb84dcece92c2346cffc906505256
+
+Fashion-MNIST and CIFAR-10 and exceeds the state-of-the-art on the pixel-wise task on MVTec-AD. They give evidence to show a clear improvement by using few (1 up to 8) real anomalous images in MVTec-AD for supervision at the pixel level. Finally, a qualitative study with horse images on PASCAL-VOC shows that FCDD can intrinsically reveal spurious model decisions by providing built-in anomaly score heatmaps.
+
+
+Vitjan Zavrtanik (2022)
+paperId=79c7962f9eaa9a84c8257637e27849d84c6814d5
+DSR - A dual subspace re-projection network for surface anomaly detection
+Vitjan Zavrtanik, M. Kristan, D. Skočaj
+row['nrefences']=23
+row['nreferences_incommon_mvtec_citations']=9
+row['percent_references_incommon_mvtec_citations']=39%
+https://www.semanticscholar.org/paper/79c7962f9eaa9a84c8257637e27849d84c6814d5
+
+. The state-of-the-art in discriminative unsupervised surface anomaly detection relies on external datasets for synthesizing anomaly-augmented training images. Such approaches are prone to failure on near-in-distribution anomalies since these are difficult to be synthesized real-istically due to their similarity to anomaly-free regions. We propose an architecture based on quantized feature space representation with dual decoders, DSR, that avoids the image-level anomaly synthesis require-ment. Without making any assumptions about the visual properties of anomalies, DSR generates the anomalies at the feature level by sampling the learned quantized feature space, which allows a controlled generation of near-in-distribution anomalies. DSR achieves state-of-the-art results on the KSDD2 and MVTec anomaly detection datasets. The experiments on the challenging real-world KSDD2 dataset show that DSR significantly outperforms other unsupervised surface anomaly detection methods, improving the previous top-performing methods by 10% AP in anomaly detection and 35% AP in anomaly localization. Code is available at: https://github.com/VitjanZ/DSR anomaly detection.
+
+
+Sungwook Lee (2022)
+paperId=5de172c1031a38184a431b6e704f040f6f509064
+CFA: Coupled-hypersphere-based Feature Adaptation for Target-Oriented Anomaly Localization
+Sungwook Lee, Seunghyun Lee, B. Song
+row['nrefences']=23
+row['nreferences_incommon_mvtec_citations']=9
+row['percent_references_incommon_mvtec_citations']=39%
+https://www.semanticscholar.org/paper/5de172c1031a38184a431b6e704f040f6f509064
+
+For a long time, anomaly localization has been widely used in industries. Previous studies focused on approximating the distribution of normal features without adaptation to a target dataset. However, since anomaly localization should precisely discriminate normal and abnormal features, the absence of adaptation may make the normality of abnormal features overestimated. Thus, we propose Coupled-hypersphere-based Feature Adaptation (CFA) which accomplishes sophisticated anomaly localization using features adapted to the target dataset. CFA consists of (1) a learnable patch descriptor that learns and embeds target-oriented features and (2) scalable memory bank independent of the size of the target dataset. And, CFA adopts transfer learning to increase the normal feature density so that abnormal features can be clearly distinguished by applying patch descriptor and memory bank to a pretrained CNN. The proposed method outperforms the previous methods quantitatively and qualitatively. For example, it provides an AUROC score of 99.5% in anomaly detection and 98.5% in anomaly localization of MVTec AD benchmark. In addition, this paper points out the negative effects of biased features of pre-trained CNNs and emphasizes the importance of the adaptation to the target dataset. The code is publicly available at https://github.com/ sungwool/CFA_for_anomaly_localization
+
+
+Minghui Yang (2022)
+paperId=ead24c591a410223c3b00ffd0fea194da93c1744
+MemSeg: A semi-supervised method for image surface defect detection using differences and commonalities
+Minghui Yang, Peng Wu, Jing Liu, Hui Feng
+row['nrefences']=31
+row['nreferences_incommon_mvtec_citations']=12
+row['percent_references_incommon_mvtec_citations']=39%
+https://www.semanticscholar.org/paper/ead24c591a410223c3b00ffd0fea194da93c1744
+
+Under the semi-supervised framework, we propose an end-to-end memory-based segmentation network (MemSeg) to detect surface defects on industrial products. Considering the small intra-class variance of products in the same production line, from the perspective of differences and commonalities , MemSeg introduces artificially simulated abnormal samples and memory samples to assist the learning of the network. In the training phase, MemSeg explicitly learns the potential differences between normal and simulated abnormal images to obtain a robust classification hyperplane. At the same time, inspired by the mechanism of human memory, MemSeg uses a memory pool to store the general patterns of normal samples. By comparing the similarities and differences between input samples and memory samples in the memory pool to give effective guesses about abnormal regions; In the inference phase, MemSeg directly determines the abnormal regions of the input image in an end-to-end manner. Through experimental validation, MemSeg achieves the state-of-the-art (SOTA) performance on MVTec AD datasets with AUC scores of 99.56% and 98.84% at the image-level and pixel-level, respectively. In addition, MemSeg also has a significant advantage in inference speed benefiting from the end-to-end and straightforward network structure, which better meets the real-time requirement in industrial scenarios. pre-trained ResNet18 [14] as an encoder. From the perspective of differences and commonalities, MemSeg introduces simulated abnormal samples and a memory module to assist the model learning in a more oriented way, and thus accomplishes the semi-supervised surface defect task in an end-to-end manner. At the same time, in order to fully fuse the memory information with the high-level features of the input image, MemSeg introduces a multi-scale feature fusion module (MSFF Module) and a novel spatial attention module, which greatly improves the model precision of anomaly localization.
+
+
+Rui Yan (2022)
+paperId=3f95b7336938d091c31cea7a07fb6292ffb7a367
+CAINNFlow: Convolutional block Attention modules and Invertible Neural Networks Flow for anomaly detection and localization tasks
+Rui Yan, Fan Zhang, Mengyuan Huang, Wu Liu, Dongyu Hu, Jinfeng Li, Qiangwei Liu, Jingrong Jiang, Qi Guo, Li-Ting Zheng
+row['nrefences']=25
+row['nreferences_incommon_mvtec_citations']=9
+row['percent_references_incommon_mvtec_citations']=36%
+https://www.semanticscholar.org/paper/3f95b7336938d091c31cea7a07fb6292ffb7a367
+
+Detection of object anomalies is crucial in industrial processes, but unsupervised anomaly detection and localization is particularly important due to the diﬃculty of obtaining a large number of defective samples and the unpredictable types of anomalies in real life. Among the existing unsupervised anomaly detection and localization methods, the NF-based scheme has achieved better results. How-ever, the two subnets (complex functions) 𝑠 𝑖 ( 𝑢 𝑖 ) and 𝑡 𝑖 ( 𝑢 𝑖 ) in NF are usually multilayer perceptrons, which need to squeeze the input visual features from 2D ﬂattening to 1D, destroying the spatial location relationship in the feature map and losing the spatial structure information. In order to retain and eﬀectivelyextractspatialstructureinformation, wedesigninthisstudyacomplexfunctionmodelwith alternating CBAM embedded in a stacked 3∙3 full convolution, which is able to retain and eﬀectively extract spatial structure information in the normalized ﬂow model. Extensive experimental results on the MVTec AD dataset show that CAINNFlow achieves advanced levels of accuracy and inference eﬃciency based on CNN and Transformer backbone networks as feature extractors, and CAINNFlow achieves a pixel-level AUC of 98 . 64% for anomaly detection in MVTec AD.
+
+

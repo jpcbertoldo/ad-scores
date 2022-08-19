@@ -1,0 +1,156 @@
+rowid='51ba3b33f445199d9f3cddb5b00c7e2927199b0c'
+row['title']='Deep Learning for Unsupervised Anomaly Localization in Industrial Images: A Survey'
+row['nrefences']=125
+row['nreferences_incommon_mvtec_citations']=61
+row['percent_references_incommon_mvtec_citations']=48.8
+
+rowid='73cd41517018945fc17300adeb91447bfede6a53'
+row['title']='A Survey on Unsupervised Industrial Anomaly Detection Algorithms'
+row['nrefences']=125
+row['nreferences_incommon_mvtec_citations']=33
+row['percent_references_incommon_mvtec_citations']=26.4
+
+rowid='f98dbe64ed6fa8925048291fcceb625d704fb294'
+row['title']='Self-Supervised Anomaly Detection: A Survey and Outlook'
+row['nrefences']=136
+row['nreferences_incommon_mvtec_citations']=26
+row['percent_references_incommon_mvtec_citations']=19.11764705882353
+
+rowid='1e78fb6e1c95e0831f6e9f20186534f3bf20db4e'
+row['title']='A Unified Model for Multi-class Anomaly Detection'
+row['nrefences']=50
+row['nreferences_incommon_mvtec_citations']=21
+row['percent_references_incommon_mvtec_citations']=42.0
+
+rowid='32aab0c5468d9692877c53efc5612957e48205b2'
+row['title']='Data refinement for fully unsupervised visual inspection using pre-trained networks'
+row['nrefences']=51
+row['nreferences_incommon_mvtec_citations']=21
+row['percent_references_incommon_mvtec_citations']=41.1764705882353
+
+rowid='76077e1e12908b525907e7c3419368291f5965ab'
+row['title']='Benchmarking Unsupervised Anomaly Detection and Localization'
+row['nrefences']=38
+row['nreferences_incommon_mvtec_citations']=19
+row['percent_references_incommon_mvtec_citations']=50.0
+
+rowid='0f23a44418aabe3344c6f3809d6a8ab898292813'
+row['title']='Data Invariants to Understand Unsupervised Out-of-Distribution Detection'
+row['nrefences']=83
+row['nreferences_incommon_mvtec_citations']=18
+row['percent_references_incommon_mvtec_citations']=21.686746987951807
+
+rowid='08b66b00a9ce6ab8090668f9f848c5659617bae9'
+row['title']='Surface Defect Detection Methods for Industrial Products: A Review'
+row['nrefences']=139
+row['nreferences_incommon_mvtec_citations']=17
+row['percent_references_incommon_mvtec_citations']=12.23021582733813
+
+rowid='d78f2e0d5e3040ad62d5bcd0abca8a8507bff209'
+row['title']='Transfer Learning Gaussian Anomaly Detection by Fine-Tuning Representations'
+row['nrefences']=59
+row['nreferences_incommon_mvtec_citations']=16
+row['percent_references_incommon_mvtec_citations']=27.11864406779661
+
+rowid='0795b7462b6d186d4ccd63d185a25f54d56aaf5f'
+row['title']='Explicit Boundary Guided Semi-Push-Pull Contrastive Learning for Better Anomaly Detection'
+row['nrefences']=47
+row['nreferences_incommon_mvtec_citations']=16
+row['percent_references_incommon_mvtec_citations']=34.04255319148936
+
+rowid='3b3aefbbdb64e5812f133f220b3f129a36a30065'
+row['title']='Anomaly Detection via Reverse Distillation from One-Class Embedding'
+row['nrefences']=49
+row['nreferences_incommon_mvtec_citations']=16
+row['percent_references_incommon_mvtec_citations']=32.6530612244898
+
+rowid='cd382609f0029aae042e91a5a46b3dc2ba58a321'
+row['title']='Anomaly Detection in 3D Point Clouds using Deep Geometric Descriptors'
+row['nrefences']=47
+row['nreferences_incommon_mvtec_citations']=15
+row['percent_references_incommon_mvtec_citations']=31.914893617021278
+
+rowid='fa1aa090d09dc5d420d0cce37cea72c21e99d36b'
+row['title']='Deep One-Class Classification via Interpolated Gaussian Descriptor'
+row['nrefences']=79
+row['nreferences_incommon_mvtec_citations']=15
+row['percent_references_incommon_mvtec_citations']=18.9873417721519
+
+rowid='840530ea3d2008d301b49c9d25dbcc76f91b4ab6'
+row['title']='HaloAE: An HaloNet based Local Transformer Auto-Encoder for Anomaly Detection and Localization'
+row['nrefences']=57
+row['nreferences_incommon_mvtec_citations']=15
+row['percent_references_incommon_mvtec_citations']=26.31578947368421
+
+rowid='13fab6dbb9d0f3eaac0b45a52c140165ae25b8b6'
+row['title']='GAN-based anomaly detection: A review'
+row['nrefences']=241
+row['nreferences_incommon_mvtec_citations']=15
+row['percent_references_incommon_mvtec_citations']=6.224066390041494
+
+rowid='45535b86c60661dd4c4e4f375abae80937563499'
+row['title']='Multi-Scale Patch-Based Representation Learning for Image Anomaly Detection and Segmentation'
+row['nrefences']=29
+row['nreferences_incommon_mvtec_citations']=14
+row['percent_references_incommon_mvtec_citations']=48.275862068965516
+
+rowid='f40b83fddae574937199a857504d84ebe8fce418'
+row['title']='Discriminative Feature Learning Framework with Gradient Preference for Anomaly Detection'
+row['nrefences']=23
+row['nreferences_incommon_mvtec_citations']=11
+row['percent_references_incommon_mvtec_citations']=47.82608695652174
+
+rowid='8ddd68ba618c5c0bb327b874cec731ddf6764bd0'
+row['title']='Leveraging pre-trained Segmentation Networks for Anomaly Segmentation'
+row['nrefences']=27
+row['nreferences_incommon_mvtec_citations']=12
+row['percent_references_incommon_mvtec_citations']=44.44444444444444
+
+rowid='44e5c681bed1b4c08a745b199e353ce7bafd8a92'
+row['title']='PEDENet: Image Anomaly Localization via Patch Embedding and Density Estimation'
+row['nrefences']=31
+row['nreferences_incommon_mvtec_citations']=13
+row['percent_references_incommon_mvtec_citations']=41.935483870967744
+
+rowid='c75acecad5c137f050a58c546fd61ae46ece4ebf'
+row['title']='Anomaly Detection Via Self-Organizing Map'
+row['nrefences']=29
+row['nreferences_incommon_mvtec_citations']=12
+row['percent_references_incommon_mvtec_citations']=41.37931034482759
+
+rowid='19ac86e7ac8d42f02e6936b7ee820ef6cc1ff752'
+row['title']='Improved Anomaly Detection Based on Image Reconstruction and Global Template Features for Industrial Products'
+row['nrefences']=17
+row['nreferences_incommon_mvtec_citations']=7
+row['percent_references_incommon_mvtec_citations']=41.1764705882353
+
+rowid='c20a429ede0cb84dcece92c2346cffc906505256'
+row['title']='[Reproducibility Report] Explainable Deep One-Class Classification'
+row['nrefences']=28
+row['nreferences_incommon_mvtec_citations']=11
+row['percent_references_incommon_mvtec_citations']=39.285714285714285
+
+rowid='5de172c1031a38184a431b6e704f040f6f509064'
+row['title']='CFA: Coupled-hypersphere-based Feature Adaptation for Target-Oriented Anomaly Localization'
+row['nrefences']=23
+row['nreferences_incommon_mvtec_citations']=9
+row['percent_references_incommon_mvtec_citations']=39.130434782608695
+
+rowid='79c7962f9eaa9a84c8257637e27849d84c6814d5'
+row['title']='DSR - A dual subspace re-projection network for surface anomaly detection'
+row['nrefences']=23
+row['nreferences_incommon_mvtec_citations']=9
+row['percent_references_incommon_mvtec_citations']=39.130434782608695
+
+rowid='ead24c591a410223c3b00ffd0fea194da93c1744'
+row['title']='MemSeg: A semi-supervised method for image surface defect detection using differences and commonalities'
+row['nrefences']=31
+row['nreferences_incommon_mvtec_citations']=12
+row['percent_references_incommon_mvtec_citations']=38.70967741935484
+
+rowid='3f95b7336938d091c31cea7a07fb6292ffb7a367'
+row['title']='CAINNFlow: Convolutional block Attention modules and Invertible Neural Networks Flow for anomaly detection and localization tasks'
+row['nrefences']=25
+row['nreferences_incommon_mvtec_citations']=9
+row['percent_references_incommon_mvtec_citations']=36.0
+

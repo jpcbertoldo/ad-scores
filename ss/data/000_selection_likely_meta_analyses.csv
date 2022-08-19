@@ -1,0 +1,27 @@
+paperId,title,nrefences,nreferences_incommon_mvtec_citations,percent_references_incommon_mvtec_citations
+51ba3b33f445199d9f3cddb5b00c7e2927199b0c,Deep Learning for Unsupervised Anomaly Localization in Industrial Images: A Survey,125,61,48.8
+73cd41517018945fc17300adeb91447bfede6a53,A Survey on Unsupervised Industrial Anomaly Detection Algorithms,125,33,26.4
+f98dbe64ed6fa8925048291fcceb625d704fb294,Self-Supervised Anomaly Detection: A Survey and Outlook,136,26,19.11764705882353
+1e78fb6e1c95e0831f6e9f20186534f3bf20db4e,A Unified Model for Multi-class Anomaly Detection,50,21,42.0
+32aab0c5468d9692877c53efc5612957e48205b2,Data refinement for fully unsupervised visual inspection using pre-trained networks,51,21,41.1764705882353
+76077e1e12908b525907e7c3419368291f5965ab,Benchmarking Unsupervised Anomaly Detection and Localization,38,19,50.0
+0f23a44418aabe3344c6f3809d6a8ab898292813,Data Invariants to Understand Unsupervised Out-of-Distribution Detection,83,18,21.686746987951807
+08b66b00a9ce6ab8090668f9f848c5659617bae9,Surface Defect Detection Methods for Industrial Products: A Review,139,17,12.23021582733813
+d78f2e0d5e3040ad62d5bcd0abca8a8507bff209,Transfer Learning Gaussian Anomaly Detection by Fine-Tuning Representations,59,16,27.11864406779661
+0795b7462b6d186d4ccd63d185a25f54d56aaf5f,Explicit Boundary Guided Semi-Push-Pull Contrastive Learning for Better Anomaly Detection,47,16,34.04255319148936
+3b3aefbbdb64e5812f133f220b3f129a36a30065,Anomaly Detection via Reverse Distillation from One-Class Embedding,49,16,32.6530612244898
+cd382609f0029aae042e91a5a46b3dc2ba58a321,Anomaly Detection in 3D Point Clouds using Deep Geometric Descriptors,47,15,31.914893617021278
+fa1aa090d09dc5d420d0cce37cea72c21e99d36b,Deep One-Class Classification via Interpolated Gaussian Descriptor,79,15,18.9873417721519
+840530ea3d2008d301b49c9d25dbcc76f91b4ab6,HaloAE: An HaloNet based Local Transformer Auto-Encoder for Anomaly Detection and Localization,57,15,26.31578947368421
+13fab6dbb9d0f3eaac0b45a52c140165ae25b8b6,GAN-based anomaly detection: A review,241,15,6.224066390041494
+45535b86c60661dd4c4e4f375abae80937563499,Multi-Scale Patch-Based Representation Learning for Image Anomaly Detection and Segmentation,29,14,48.275862068965516
+f40b83fddae574937199a857504d84ebe8fce418,Discriminative Feature Learning Framework with Gradient Preference for Anomaly Detection,23,11,47.82608695652174
+8ddd68ba618c5c0bb327b874cec731ddf6764bd0,Leveraging pre-trained Segmentation Networks for Anomaly Segmentation,27,12,44.44444444444444
+44e5c681bed1b4c08a745b199e353ce7bafd8a92,PEDENet: Image Anomaly Localization via Patch Embedding and Density Estimation,31,13,41.935483870967744
+c75acecad5c137f050a58c546fd61ae46ece4ebf,Anomaly Detection Via Self-Organizing Map,29,12,41.37931034482759
+19ac86e7ac8d42f02e6936b7ee820ef6cc1ff752,Improved Anomaly Detection Based on Image Reconstruction and Global Template Features for Industrial Products,17,7,41.1764705882353
+c20a429ede0cb84dcece92c2346cffc906505256,[Reproducibility Report] Explainable Deep One-Class Classification,28,11,39.285714285714285
+5de172c1031a38184a431b6e704f040f6f509064,CFA: Coupled-hypersphere-based Feature Adaptation for Target-Oriented Anomaly Localization,23,9,39.130434782608695
+79c7962f9eaa9a84c8257637e27849d84c6814d5,DSR - A dual subspace re-projection network for surface anomaly detection,23,9,39.130434782608695
+ead24c591a410223c3b00ffd0fea194da93c1744,MemSeg: A semi-supervised method for image surface defect detection using differences and commonalities,31,12,38.70967741935484
+3f95b7336938d091c31cea7a07fb6292ffb7a367,CAINNFlow: Convolutional block Attention modules and Invertible Neural Networks Flow for anomaly detection and localization tasks,25,9,36.0
